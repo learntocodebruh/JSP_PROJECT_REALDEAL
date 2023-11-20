@@ -14,7 +14,7 @@ public class BoardDAO {
 	PreparedStatement stmt = null;
 	ResultSet rs = null;
 
-	// ok
+	// ok now it should work
 
 	private final String BOARD_INSERT = "insert into BOARD (category, title, writer, content) values (?,?,?,?)";
 	private final String BOARD_UPDATE = "update BOARD set category =?, title=?, writer=?, content=?, modified_date = CURRENT_TIMESTAMP where seq=?";
